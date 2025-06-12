@@ -1,6 +1,7 @@
 # Reddit MCP
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![smithery badge](https://smithery.ai/badge/@geobio/reddit-mcp)](https://smithery.ai/server/@geobio/reddit-mcp)
 
 A plug-and-play [MCP](https://modelcontextprotocol.io) server to browse, search, and read Reddit.
 
@@ -68,6 +69,14 @@ Then add the following to the configuration file:
     }
   }
 }
+```
+
+### Installing via Smithery
+
+To install reddit-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@geobio/reddit-mcp):
+
+```bash
+npx -y @smithery/cli install @geobio/reddit-mcp --client claude
 ```
 
 ### Others
